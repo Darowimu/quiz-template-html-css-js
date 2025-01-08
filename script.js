@@ -6,6 +6,19 @@ var countQues=0;
 var lang;
 var score=0;
 
+var yesquestions=[
+
+    {
+        question: "Test",
+        choices: ["false","true","false","false"],
+        answer: 2
+    
+    },
+    
+                
+];
+
+
 var HTMLquestions=[
 
     {
@@ -438,7 +451,7 @@ document.getElementById("restart").addEventListener("click",function(){
 });
 
 document.getElementById("about").addEventListener("click",function(){
-    alert("Quiz Website Project Created By Digvijay Singh");
+    alert("lol");
 
 });
 
